@@ -63,7 +63,7 @@ const companyLogos = [
       <div className="bg-white rounded-xl px-4 py-3 shadow-xl border border-gray-200 min-w-[120px] hover:shadow-2xl transition-all duration-300">
         <div className="text-center">
           <div className="text-sm font-bold text-purple-600 lowercase">accenture</div>
-          <div className="text-lg text-purple-600 leading-none font-bold">></div>
+          <div className="text-lg text-purple-600 leading-none font-bold">&gt;</div>
         </div>
       </div>
     ),

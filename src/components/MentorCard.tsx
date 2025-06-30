@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Card, CardContent } from '@/components/ui/card'
 import { Star, MapPin, Award } from 'lucide-react'
-import { cn } from '@/lib/utils'
+
 
 interface MentorCardProps {
   name: string

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { ArrowRight, Mail } from 'lucide-react'
+import { Mail } from 'lucide-react'
 
 const Footer = () => {
   const footerSections = [

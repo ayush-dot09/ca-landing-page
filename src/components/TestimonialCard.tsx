@@ -49,7 +49,7 @@ const TestimonialCard = ({
 
         {/* Testimonial Text */}
         <blockquote className="text-gray-700 mb-6 leading-relaxed italic text-base relative">
-          "{testimonial}"
+          &ldquo;{testimonial}&rdquo;
         </blockquote>
 
         {/* Student Info */}

@@ -66,7 +66,7 @@ export interface BlogPost {
   title: string
   slug: string
   excerpt: string
-  content: any
+  content: string | object
   featuredImage?: {
     url: string
     alt: string

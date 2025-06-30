@@ -4,12 +4,22 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ChevronDown, Menu, X, ShoppingCart } from 'lucide-react'
-import { cn } from '@/lib/utils'
+
+interface NavigationItem {
+  title: string
+  href: string
+  badge?: string
+  submenu?: {
+    title: string
+    subtitle: string
+    href: string
+  }[]
+}
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const navigationItems = [
+  const navigationItems: NavigationItem[] = [
     {
       title: 'Interview Prep',
       href: '/interview-prep',

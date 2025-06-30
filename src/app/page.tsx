@@ -249,7 +249,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Featured Courses</h2>
-            <p className="text-lg text-gray-600 mb-8">Isn't learning an investment your future deserves?</p>
+            <p className="text-lg text-gray-600 mb-8">Isn&apos;t learning an investment your future deserves?</p>
 
             <div className="inline-flex items-center bg-white/80 backdrop-blur-sm border border-green-200 rounded-full px-6 py-2 shadow-lg">
               <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
